@@ -111,5 +111,5 @@ pipeline {
     //                  subject: "${env.JOB_NAME} - Build # ${env.BUILD_NUMBER} - Successful", 
     //                  mimeType: 'text/html',to: "ashfaque.s510@gmail.com"
     //   }      
-    //    }
+    }
 }
