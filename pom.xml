@@ -15,7 +15,7 @@
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
     <sonar.projectKey>register-app</sonar.projectKey>
-    <sonar.projectName>register-app</sonar.projectName>
+    <sonar.projectName>Register-app</sonar.projectName>
   </properties>
 
   <modules>
