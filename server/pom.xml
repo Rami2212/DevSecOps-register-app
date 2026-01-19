@@ -15,6 +15,10 @@
   <name>Server</name>
   <description>Logic.</description>
 
+  <properties>
+    <sonar.projectKey>register-app-server</sonar.projectKey>
+  </properties>
+
   <build>
     <finalName>${project.artifactId}</finalName>
   </build>
