@@ -32,7 +32,6 @@ pipeline {
             steps {
                 sh "mvn clean package"
             }
-
        }
 
        stage("Test Application"){
@@ -73,6 +72,7 @@ pipeline {
                     }
                 }
             }
+        }
 
        stage("Trivy Scan") {
            steps {
