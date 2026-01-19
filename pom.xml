@@ -14,8 +14,6 @@
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
-    <sonar.projectKey>register-app</sonar.projectKey>
-    <sonar.projectName>Register-app</sonar.projectName>
   </properties>
 
   <modules>
@@ -91,11 +89,6 @@
           </reportPlugins>
         </configuration>
       </plugin>
-      <plugin>
-            <groupId>org.sonarsource.scanner.maven</groupId>
-            <artifactId>sonar-maven-plugin</artifactId>
-            <version>3.10.0.2594</version>
-        </plugin>
     </plugins>
 
     <pluginManagement>
